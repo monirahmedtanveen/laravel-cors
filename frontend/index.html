@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<meta property="og:title" content="You Title" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="Your-Image-Url" />
+	<meta property="og:description" content="Your Description" />
+	<title>Laravel Cors - User Data</title>
+
+</head>
+<body>
+	<button onclick="loadData();" id="btnLoad">Load Data</button>
+	<button onclick="clearData();" id="btnClear">Clear Data</button>
+	<div id="data">
+			click load data button to load user data
+	</div>
+
+	<div>
+		<h3>User List</h3>
+		<table border="1" style="text-align: center">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Mobile</th>
+					<th>Address</th>
+				</tr>
+			</thead>
+
+			<tbody id="tablebody">
+				<tr id="rowmsg">
+					<td colspan="4">No data to show</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<br>
+
+	<!-- <div>
+		<hr>
+		<h3>Insert User</h3>
+		<form id="targetForm" method="POST" onsubmit="postData()">
+			Name
+			<input type="text" name="name"><br>
+			Email
+			<input type="text" name="email"><br>
+			Mobile
+			<input type="text" name="mobile"><br>
+			Address
+			<input type="text" name="address"><br>
+			<input type="submit">
+		</form>
+	</div> -->
+	<!-- Js -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
