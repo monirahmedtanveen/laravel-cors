@@ -5,7 +5,9 @@ This is an application which have laravel backend and jQuery frontend. In this a
 ## Backend App installation
 
 1. At first cd to the 'backend' directory and run the following command :- 
-<br>composer install 
+```php
+composer install
+``` 
 2. Create a database on your database management system :- 'your_database'.
 3. In .env file change the following lines:- 
 ```php
