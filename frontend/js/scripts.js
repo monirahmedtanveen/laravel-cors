@@ -1,7 +1,5 @@
 function loadData(){
-	// Token = "Token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOjIyNSwiaWF0IjoxNTUzNDIyNjUwLCJuYmYiOjE1NTM0MjI2NTAsImV4cCI6MTU1ODYwNjY1MH0.XLaDRdU6ix1AbKfE-xTdAwcTamOZiccjhnD5hk9X7drq6oJ6oCu0Zu2H5V_Lv_7Y_0YUTRghIa_ZfT8G-s14sg";
-	// url = "https://www.landknock.org/api/v1.0.1/login";
-	url = "http://localhost:8000/api/v1.0.1/users";
+	url = "http://localhost:8000/api/v1.0.0/users";
 	$("#btnLoad").text("Loading Data");
 	$("#btnLoad").attr({disabled: true}); 
 		
