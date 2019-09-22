@@ -9,9 +9,9 @@ function loadData(){
 		
 		url: url,
 		data: {
-			/*name: 'Iram Rahman',
-			email: 'marahman.dg@gmail.com',
-			mobile: '01677566997',
+			/*name: 'John Due',
+			email: 'johndue@gmail.com',
+			mobile: '01652564515',
 			password: 'quioite',
 			address: 'Dhaka-1300',*/
 		},
