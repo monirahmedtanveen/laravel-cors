@@ -24,4 +24,4 @@ It will create users table in 'your_database'.
 This will complete the installation process.
 
 ## Demonstration
-For details description go to [this](https://monirahmedtanveen.github.io/monir.log/send-CORS-headers-in-laravel-using-spatie-laravel-cors-package) link.
+For details description go to [this](https://monirahmedtanveen.github.io/tech.logs/2019/09/18/send-cors-headers-in-laravel-using-spatie-laravel-cors-package.html) link.
